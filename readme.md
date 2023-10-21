@@ -6,17 +6,18 @@
 
 **Logipix** is a puzzle game where players are given a grid filled with numbers. The objective is to connect cells with the same number such that the length of the connecting path matches the given number.
 
-<div style="display: flex; justify-content: space-between;">
-  <div style="flex: 1; margin-right: 10px;">
-    <img src="data/unsolved.JPG" width="100%" />
-    <p align="center">Unsolved Puzzle</p>
-  </div>
-  
-  <div style="flex: 1; margin-left: 10px;">
-    <img src="data/solved.JPG" width="100%" />
-    <p align="center">Solved Puzzle</p>
-  </div>
-</div>
+<table>
+  <tr>
+    <td>
+      <img src="data/unsolved.JPG" alt="Unsolved Puzzle" width="100%" />
+      <p align="center">Unsolved Puzzle</p>
+    </td>
+    <td>
+      <img src="data/solved.JPG" alt="Solved Puzzle" width="100%" />
+      <p align="center">Solved Puzzle</p>
+    </td>
+  </tr>
+</table>
 
 ## Directory Structure
 - data/: Contains example instances and images.
